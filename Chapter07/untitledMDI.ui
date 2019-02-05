@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>527</width>
+    <height>417</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QMdiArea" name="mdiArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>501</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="subwindow_2">
+     <property name="windowTitle">
+      <string>子窗口</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>33</x>
+        <y>100</y>
+        <width>131</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>First sub window</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="subwindow">
+     <property name="windowTitle">
+      <string>子窗口</string>
+     </property>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>23</x>
+        <y>70</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>second sub window</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>527</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuWindows">
+    <property name="title">
+     <string>Windows</string>
+    </property>
+    <addaction name="actionSubWindow_View"/>
+    <addaction name="actionTabbleWindow_View"/>
+    <addaction name="actionCaseced_View"/>
+    <addaction name="actionTile_View"/>
+   </widget>
+   <addaction name="menuWindows"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSubWindow_View">
+   <property name="text">
+    <string>SubWindow View</string>
+   </property>
+  </action>
+  <action name="actionTabbleWindow_View">
+   <property name="text">
+    <string>Tabbed View</string>
+   </property>
+  </action>
+  <action name="actionCaseced_View">
+   <property name="text">
+    <string>Cascade View</string>
+   </property>
+  </action>
+  <action name="actionTile_View">
+   <property name="text">
+    <string>Tile View</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
